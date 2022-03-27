@@ -28,12 +28,16 @@
 O objetivo dessa API é para fins de estudo. Posso criar meus pequenos projetos de estudo utilizando a minha própria API e criar novas variáveis ou rotas quando eu precisar.
 
 
-## ✋🏻 Pré-requisitos
+## 🚀 Tecnologias
 
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](classic.yarnpkg.com/en/docs/install)
-- Necessário possuir uma conta no Mongo Atlas para a criação de uma url para as variáveis de ambiente. Confira atentamente se a sua chave está correta.
+- Nestjs
+- Typescript
+- Autenticação JWT
+- Autorização de rotas
+
 
 
 ## 🔥 Instalação e execução
