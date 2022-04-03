@@ -11,7 +11,9 @@ import { ConfigModule } from '@nestjs/config';
 @Module({
   imports: [
     ConfigModule.forRoot(),
-    MongooseModule.forRoot(process.env.MONGO_URI),
+    MongooseModule.forRoot(
+      `mongodb+srv://${process.env.USER}:${process.env.PASSWORD}@blog.7eayp.mongodb.net/authlogin`,
+    ),
     UserModule,
     AuthModule,
   ],
